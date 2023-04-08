@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Opdracht</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Registreer</h2>
+                    <p>Meld je aan bij anoroc services, wij beschermen jou software tegen malware!</p>
+                </div>
+            <div class="row">
+                <div class="col-md-8">  
+                    <div class="mb-3">                 
+                        <label for="Naam" class="form-label">Naam</label>
+                        <input type="Text" class="form-control" id="Naam" placeholder="Uw naam"/> 
+                    </div> 
+
+                    <div class="mb-3">
+                        <label for="Voornaam" class="form-label">Voornaam</label>
+                        <input type="Text" class="form-control" id="Voornaam" placeholder="Uw voornaam"/>       
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Gebruikersnaam" class="form-label">Gebruikersnaam</label>
+                        <div class="input-group">
+                          <span class="input-group-text" id="basic-addon1">@</span>
+                          <input type="text" class="form-control" id="Gebruikersnaam" aria-describedby="basic-addon1" placeholder="u911236">
+                        </div>                        
+                      </div>
+
+                      <div class="mb-3">                 
+                        <label for="Email" class="form-label">E-mailadres</label>
+                        <input type="email" class="form-control" id="Email" placeholder="mail@example.be"/> 
+                    </div> 
+
+                    <div class="mb-3">
+                        <label for="Wachtwoord" class="form-label">Wachtwoord</label>
+                        <div class="input-group">                          
+                          <input type="password" class="form-control" id="Wachtwoord" aria-describedby="basic-addon4">
+                        </div>
+                        <div class="form-text" id="basic-addon4">Je wachtwoord moet minstens acht tekens lang zijn</div>
+                      </div>
+
+                      <div class="mb-3">                 
+                        <label for="Wwherhaal" class="form-label">Herhaal wachtwoord</label>
+                        <input type="password" class="form-control" id="Wwherhaal" /> 
+                    </div>
+
+                    <div class="mb-3">                 
+                        <label for="Adres" class="form-label">Adres</label>
+                        <input type="text" class="form-control" id="Adres" placeholder="Uw adres en huisnummer"/> 
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Land" class="form-label">Land</label>
+                    <select class="form-select" id="Land">
+                        <option value="0" selected>Kies een Land</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="Provincie" class="form-label">Provincie</label>
+                    <select class="form-select" id="Provincie">
+                        <option value="0" selected>Kies een provincie</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    </div>
+
+                    <div class="mb-3">                 
+                        <label for="Postcode" class="form-label">Postcode</label>
+                        <input type="number" class="form-control" id="Postcode" /> 
+                    </div>
+
+                    <h2>Hou me op de hoogte</h2>
+                    <div class="mb-3 form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="Nieuwsbrief"
+                        />
+                        <label class="form-check-label" for="Nieuwsbrief"
+                          >Inschrijven voor onze nieuwsbrief</label
+                        >
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="Voorwaarde"
+                        />
+                        <label class="form-check-label" for="Voorwaarde"
+                          >Ik ga akkoord met de algemene voorwaarden.</label
+                        >
+                      </div>
+                      <h2>Betalingswijze</h2>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" value="" id="Bankingapp" name="Betalingswijze">
+                        <label class="form-check-label" for="Bankingapp">
+                          Bankingapp
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input"  type="radio" value="" id="Overschrijving" name="Betalingswijze">
+                        <label class="form-check-label" for="Overschrijving">
+                          Overschrijving
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input"  type="radio" value="" id="Visa card" name="Betalingswijze">
+                        <label class="form-check-label" for="Visa card">
+                          Visa card
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input"  type="radio" value="" id="PayPal" name="Betalingswijze">
+                        <label class="form-check-label" for="PayPal">
+                           PayPal
+                        </label>
+                      </div>
+                </div>
+            <div class="col-md-4">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea modi exercitationem porro repellat neque impedit optio maiores adipisci sapiente magnam, eos, dicta, eaque eius nesciunt qui nulla id culpa voluptatem?</p>
+            </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
