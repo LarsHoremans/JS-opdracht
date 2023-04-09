@@ -18,49 +18,49 @@
             <div class="row">
                 <div class="col-md-8">  
                     <div class="mb-3">                 
-                        <label for="Naam" class="form-label">Naam</label>
-                        <input type="Text" class="form-control" id="Naam" placeholder="Uw naam"/> 
+                        <label for="naam" class="form-label">Naam</label>
+                        <input type="text" id="naam" class="form-control" placeholder="Uw naam"/> 
                     </div> 
 
                     <div class="mb-3">
-                        <label for="Voornaam" class="form-label">Voornaam</label>
-                        <input type="Text" class="form-control" id="Voornaam" placeholder="Uw voornaam"/>       
+                        <label for="voornaam" class="form-label">Voornaam</label>
+                        <input type="Text" class="form-control" id="voornaam" placeholder="Uw voornaam"/>       
                     </div>
 
                     <div class="mb-3">
-                        <label for="Gebruikersnaam" class="form-label">Gebruikersnaam</label>
+                        <label for="gebruikersnaam" class="form-label">Gebruikersnaam</label>
                         <div class="input-group">
                           <span class="input-group-text" id="basic-addon1">@</span>
-                          <input type="text" class="form-control" id="Gebruikersnaam" aria-describedby="basic-addon1" placeholder="u911236">
+                          <input type="text" class="form-control" id="gebruikersnaam" aria-describedby="basic-addon1" placeholder="u911236">
                         </div>                        
                       </div>
 
                       <div class="mb-3">                 
-                        <label for="Email" class="form-label">E-mailadres</label>
-                        <input type="email" class="form-control" id="Email" placeholder="mail@example.be"/> 
+                        <label for="email" class="form-label">E-mailadres</label>
+                        <input type="email" class="form-control" id="email" placeholder="mail@example.be"/> 
                     </div> 
 
                     <div class="mb-3">
-                        <label for="Wachtwoord" class="form-label">Wachtwoord</label>
+                        <label for="wachtwoord" class="form-label">Wachtwoord</label>
                         <div class="input-group">                          
-                          <input type="password" class="form-control" id="Wachtwoord" aria-describedby="basic-addon4">
+                          <input type="password" class="form-control" id="wachtwoord" aria-describedby="basic-addon4">
                         </div>
                         <div class="form-text" id="basic-addon4">Je wachtwoord moet minstens acht tekens lang zijn</div>
                       </div>
 
                       <div class="mb-3">                 
-                        <label for="Wwherhaal" class="form-label">Herhaal wachtwoord</label>
-                        <input type="password" class="form-control" id="Wwherhaal" /> 
+                        <label for="wwherhaal" class="form-label">Herhaal wachtwoord</label>
+                        <input type="password" class="form-control" id="wwherhaal" /> 
                     </div>
 
                     <div class="mb-3">                 
-                        <label for="Adres" class="form-label">Adres</label>
-                        <input type="text" class="form-control" id="Adres" placeholder="Uw adres en huisnummer"/> 
+                        <label for="adres" class="form-label">Adres</label>
+                        <input type="text" class="form-control" id="adres" placeholder="Uw adres en huisnummer"/> 
                     </div>
 
                     <div class="mb-3">
-                        <label for="Land" class="form-label">Land</label>
-                    <select class="form-select" id="Land">
+                        <label for="land" class="form-label">Land</label>
+                    <select class="form-select" id="land">
                         <option value="0" selected>Kies een Land</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -71,8 +71,8 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="Provincie" class="form-label">Provincie</label>
-                    <select class="form-select" id="Provincie">
+                        <label for="provincie" class="form-label">Provincie</label>
+                    <select class="form-select" id="provincie">
                         <option value="0" selected>Kies een provincie</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -83,8 +83,8 @@
                     </div>
 
                     <div class="mb-3">                 
-                        <label for="Postcode" class="form-label">Postcode</label>
-                        <input type="number" class="form-control" id="Postcode" /> 
+                        <label for="postcode" class="form-label">Postcode</label>
+                        <input type="number" class="form-control" id="postcode" /> 
                     </div>
 
                     <h2>Hou me op de hoogte</h2>
@@ -102,37 +102,40 @@
                         <input
                           type="checkbox"
                           class="form-check-input"
-                          id="Voorwaarde"
+                          id="voorwaarde"
                         />
-                        <label class="form-check-label" for="Voorwaarde"
+                        <label class="form-check-label" for="voorwaarde"
                           >Ik ga akkoord met de algemene voorwaarden.</label
                         >
                       </div>
                       <h2>Betalingswijze</h2>
                       <div class="form-check">
-                        <input class="form-check-input" type="radio" value="" id="Bankingapp" name="Betalingswijze">
-                        <label class="form-check-label" for="Bankingapp">
+                        <input class="form-check-input" type="radio" value="" id="bankingapp" name="Betalingswijze">
+                        <label class="form-check-label" for="bankingapp">
                           Bankingapp
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input"  type="radio" value="" id="Overschrijving" name="Betalingswijze">
-                        <label class="form-check-label" for="Overschrijving">
+                        <input class="form-check-input"  type="radio" value="" id="overschrijving" name="Betalingswijze">
+                        <label class="form-check-label" for="overschrijving">
                           Overschrijving
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input"  type="radio" value="" id="Visa card" name="Betalingswijze">
-                        <label class="form-check-label" for="Visa card">
+                        <input class="form-check-input"  type="radio" value="" id="visa" name="Betalingswijze">
+                        <label class="form-check-label" for="visa">
                           Visa card
                         </label>
                       </div>
                       <div class="form-check">
-                        <input class="form-check-input"  type="radio" value="" id="PayPal" name="Betalingswijze">
-                        <label class="form-check-label" for="PayPal">
+                        <input class="form-check-input"  type="radio" value="" id="payPal" name="Betalingswijze">
+                        <label class="form-check-label" for="payPal">
                            PayPal
                         </label>
                       </div>
+                      <button class="btn btn-primary mt-2" id="btnStart">
+                        Wave your magic wand
+                      </button>
                 </div>
             <div class="col-md-4">
                 <div id="resultaat">
@@ -146,14 +149,109 @@
         </div>
     </main>
     <script>
-      
-      let fouten = new Array("a", "b");
+      const but = document.querySelector("#btnStart");
+      but.addEventListener("click", () => {
+      let errors = new Array();
       let zijnFouten = new Boolean(false);
-      let betaling = "test";
-      
+
+      let naam = document.querySelector("#naam");
+      let voornaam = document.querySelector("#voornaam");
+      let gebruikersnaam = document.querySelector("#gebruikersnaam");
+      let email = document.querySelector("#email");
+      let wachtwoord = document.querySelector("#wachtwoord");       
+      let wwherhaal = document.querySelector("#wwherhaal");
+      let adres = document.querySelector("#adres");
+      let land = document.querySelector("#land");
+      let provincie = document.querySelector("#provincie");
+      let postcode = document.querySelector("#postcode");      
+      let betaling;            
+      //forms checken
+      if(naam.value == "")
+      {
+        errors.push("Naam is een verplicht in te vullen vak");
+        zijnFouten = true;        
+      }
+      if(voornaam.value == "")
+      {
+        errors.push("Voornaam is een verplicht in te vullen vak");
+        zijnFouten = true;        
+      }
+      if(gebruikersnaam.value == "")
+      {
+        errors.push("Gebruikersnaam is een verplicht in te vullen vak");
+        zijnFouten = true;        
+      }
+      if(email.value == "")
+      {
+        errors.push("email is een verplicht in te vullen vak");
+        zijnFouten = true;        
+      }
+      if(wachtwoord.value == "")
+      {
+        errors.push("Wachtwoord is een verplicht in te vullen vak");
+        zijnFouten = true;        
+      }      
+      else if (wachtwoord.value != wwherhaal.value)
+      {
+        errors.push("Wachtwoorden zijn niet hetzelfde");
+        zijnFouten = true;
+      }
+      if(adres.value == "")
+      {
+        errors.push("Adres is een verplicht in te vullen vak");
+        zijnFouten = true;        
+      }
+      if(land.value == 0)
+      {
+        errors.push("Selecteer een land");
+        zijnFouten = true;        
+      }
+      if(provincie.value == 0)
+      {
+        errors.push("selecteer een provincie");
+        zijnFouten = true;        
+      }
+      if(postcode.value == "")
+      {
+        errors.push("postcode is een verplicht in te vullen vak");
+        zijnFouten = true;        
+      }
+      else if(postcode.value < 1000 || postcode.value > 9999)
+      {
+        errors.push("postcode moet tussen 1000 en 9999 liggen");
+        zijnFouten = true;
+      }
+      if (document.getElementById('voorwaarde').checked == false) 
+      {
+        errors.push("Algemene voorwaarde moeten worden aanvaard");
+        zijnFouten = true;
+      }
+      if (document.getElementById('bankingapp').checked == true) 
+      {
+        betaling = "bankingapp";
+      }
+      else if (document.getElementById('overschrijving').checked == true) 
+      {
+        betaling = "overschrijving";
+      } 
+      else if (document.getElementById('visa').checked == true) 
+      {
+        betaling = "Visa card";
+      }
+      else if (document.getElementById('payPal').checked == true) 
+      {
+        betaling = "PayPal";
+      } 
+      else 
+      {
+        errors.push("Selecteer een betalingsmetode");
+        zijnFouten = true;
+      }   
+
+      //Alerts printen  
       if(zijnFouten == true)
       {
-        document.getElementById("resultaat").innerHTML ='<div class="alert alert-danger" role="alert"><h3>Yikes, errors...</h3><p>' + fouten.join('<br />') + '</p></div>'
+        document.getElementById("resultaat").innerHTML ='<div class="alert alert-danger" role="alert"><h3>Yikes, errors...</h3><p>' + errors.join('<br />') + '</p></div>'
       }
       else
       {
@@ -161,7 +259,9 @@
         document.getElementById("resultaat").innerHTML ='<div class="alert alert-success" role="alert"><h3>Goed gedaan</h3><p>Aww yeah, je werd geregistreerd</p></div>'
       document.getElementById("wijze").innerHTML ='<div class="alert alert-info" role="alert"><h3>Betalingswijze</h3><p>Je betalingswijze is ' + betaling + '</p></div>'
       }
+    });
 
+    
     </script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
