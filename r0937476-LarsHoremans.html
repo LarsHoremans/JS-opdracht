@@ -135,11 +135,35 @@
                       </div>
                 </div>
             <div class="col-md-4">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea modi exercitationem porro repellat neque impedit optio maiores adipisci sapiente magnam, eos, dicta, eaque eius nesciunt qui nulla id culpa voluptatem?</p>
-            </div>
+                <div id="resultaat">
+
+                </div>
+                <div id="wijze">
+
+                </div>
+            </div>            
             </div>
         </div>
     </main>
+    <script>
+      
+      let fouten = new Array("a", "b");
+      let zijnFouten = new Boolean(false);
+      let betaling = "test";
+      
+      if(zijnFouten == true)
+      {
+        document.getElementById("resultaat").innerHTML ='<div class="alert alert-danger" role="alert"><h3>Yikes, errors...</h3><p>' + fouten.join('<br />') + '</p></div>'
+      }
+      else
+      {
+        
+        document.getElementById("resultaat").innerHTML ='<div class="alert alert-success" role="alert"><h3>Goed gedaan</h3><p>Aww yeah, je werd geregistreerd</p></div>'
+      document.getElementById("wijze").innerHTML ='<div class="alert alert-info" role="alert"><h3>Betalingswijze</h3><p>Je betalingswijze is ' + betaling + '</p></div>'
+      }
+
+    </script>
+
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
